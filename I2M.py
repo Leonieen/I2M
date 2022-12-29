@@ -10,6 +10,7 @@ from pedalboard.io import AudioFile
 from PIL import Image
 from scipy.io import wavfile
 import librosa
+import glob
 
 # This function generates frequencies in Hertz from notes
 def get_piano_notes():
